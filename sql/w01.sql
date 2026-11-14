@@ -27,7 +27,7 @@ ORDER BY day, period ASC;
 
 
 -- 区画4：演習の授業（科目コードの順）
-SELECT name, teacher, room, code
+SELECT name, teacher, room,
 FROM courses
 WHERE name LIKE '%演習'
 ORDER BY code ASC;
